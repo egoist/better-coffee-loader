@@ -1,0 +1,39 @@
+{
+  "name": "better-coffee-loader",
+  "version": "0.0.0",
+  "description": "Better CoffeeScript loader for webpack.",
+  "repository": {
+    "url": "egoist/better-coffee-loader",
+    "type": "git"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "test": "npm run lint && ava",
+    "lint": "xo"
+  },
+  "author": "egoist <0x142857@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "loader-utils": "^1.1.0"
+  },
+  "devDependencies": {
+    "ava": "^0.23.0",
+    "coffeescript": "^2.0.1",
+    "eslint-config-rem": "^3.0.0",
+    "memory-fs": "^0.4.1",
+    "webpack": "^3.8.1",
+    "xo": "^0.18.0"
+  },
+  "xo": {
+    "extends": "rem/prettier"
+  },
+  "peerDependencies": {
+    "coffeescript": "^2.0.1"
+  }
+}
